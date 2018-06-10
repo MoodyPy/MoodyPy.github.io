@@ -1,0 +1,98 @@
+{
+  "title": "Engineering Mood Analyzer",
+  "questions": [
+    {
+      "text": "Main Portion Of Day Spent",
+      "type": "radio",
+      "answers": [
+        {
+          "text": "Building Shit",
+          "value": 2
+        },
+        {
+          "text": "Fixing Bugs",
+          "value": -1
+        },
+        {
+          "text": "Fixing cross-browser CSS",
+          "value": -2
+        },
+        {
+          "text": "Fixing Network Connectivity",
+          "value": -3
+        }
+      ]
+    },
+    {
+      "text": "Number Of Meetings",
+      "type": "radio",
+      "answers": [
+        {
+          "text": "0",
+          "value": 2
+        },
+        {
+          "text": "1",
+          "value": 0
+        },
+        {
+          "text": "2",
+          "value": -2
+        },
+
+        {
+          "text": "3 or more",
+          "value": -4
+        }
+      ]
+    },
+    {
+      "text": "Opinion Bias",
+      "type": "radio",
+      "answers": [
+        {
+          "text": "Wayne",
+          "value": 5
+        },
+        {
+          "text": "Chris",
+          "value": 2
+        },
+        {
+          "text": "MR",
+          "value": -1
+        },
+        {
+          "text": "Ryan",
+          "value": -5
+        }
+      ]
+    },
+    {
+      "text": "Other Factors",
+      "type": "checkbox",
+      "answers": [
+        {
+          "text": "Reveille cookies straight from the oven!!",
+          "value": 3
+        },
+        {
+          "text": "Reveille out of cookies",
+          "value": -2
+        },
+        {
+          "text": "New tech to play with",
+          "value": 2
+        },
+        {
+          "text": "Had a beer on the roof",
+          "value": 2
+        },
+        {
+          "text": "Brittany comes to visit",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}
