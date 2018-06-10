@@ -2,19 +2,19 @@
   "title": "Pair Mood Predictor",
   "questions": [
     {
-      "text": "Temp In Office",
+      "text": "How was your Day?",
       "type": "radio",
       "answers": [
         {
-          "text": "Freezing",
+          "text": "Shut The Hell Up",
           "value": -2
         },
         {
-          "text": "Room temperature",
+          "text": "Aight!",
           "value": 0
         },
         {
-          "text": "Boiling",
+          "text": "It was really good!",
           "value": -2
         }
       ]
