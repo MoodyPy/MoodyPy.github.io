@@ -127,10 +127,10 @@ function getSpinnerColours() {
   // ['#2ca02c', '#98df8a', "#ff7f0e", '#ff9896', "#d62728"]
 
   if (isReallyHappy()) {
-    return ['#2ca02c','#2ca02c','#2ca02c','#2ca02c','#2ca02c'];
+    return ['#2c4405','#2c4405','#2c4405','#2c4405','#2c4405'];
   }
   else if (isReallyPissedOff()) {
-    return ["#d62728", "#d62728", "#d62728", "#d62728", "#d62728"];
+    return ["#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3"];
   }
   else {
     return ['#2ca02c', '#98df8a', "#ff7f0e", '#ff9896', "#d62728"];
