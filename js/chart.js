@@ -126,16 +126,16 @@ function getSpinnerColours() {
   // [ Dark Green, Light Green, Orange, Pink, Red ]
   // ['#2ca02c', '#98df8a', "#ff7f0e", '#ff9896', "#d62728"]
 
-  if (isReallyHappy()) {
-    return ['#2c4405','#2c4405','#2c4405','#2c4405','#2c4405'];
-  }
-  else if (isReallyPissedOff()) {
-    return ["#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3"];
-  }
-  else {
-    return ['#2c4405', '#98df8a', "#ff7f0e", '#5e5e6d', "#1a1aa3"];
-  }
-}
+//   if (isReallyHappy()) {
+//     return ['#2c4405','#2c4405','#2c4405','#2c4405','#2c4405'];
+//   }
+//   else if (isReallyPissedOff()) {
+//     return ["#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3"];
+//   }
+//   else {
+//     return ['#2c4405', '#98df8a', "#ff7f0e", '#5e5e6d', "#1a1aa3"];
+//   }
+// }
 
 // function getSpinnerText() {
 //   // Make text match colour
@@ -150,19 +150,42 @@ function getSpinnerColours() {
 //   }
 // }
 
-function getSpinnerText() {
-  // Make text match colour
+// function getSpinnerText() {
+//   // Make text match colour
+//   if (isReallyHappy()) {
+//     return ['Elated', 'Elated', 'Elated', 'Elated', 'Elated'];
+//   }
+//   else if (isReallyPissedOff()) {
+//     return ['Upset', 'Upset', 'Upset', 'Upset', 'Upset'];
+//   }
+//   else {
+//     return ['Elated', 'Happy', 'So-So', 'Sad', 'Upset'];
+//   }
+// }
+
   if (isReallyHappy()) {
-    return ['Elated', 'Elated', 'Elated', 'Elated', 'Elated'];
+    return ['#2c4405','#2c4405','#2c4405'];
   }
   else if (isReallyPissedOff()) {
-    return ['Upset', 'Upset', 'Upset', 'Upset', 'Upset'];
+    return ["#1a1aa3", "#1a1aa3", "#1a1aa3"];
   }
   else {
-    return ['Elated', 'Happy', 'So-So', 'Sad', 'Upset'];
+    return ['#2c4405', "#ff7f0e", "#1a1aa3"];
   }
 }
 
+function getSpinnerText() {
+  // Make text match colour
+  if (isReallyHappy()) {
+    return ['Happy', 'Happy', 'Happy'];
+  }
+  else if (isReallyPissedOff()) {
+    return ['Sad', 'Sad', 'Sad'];
+  }
+  else {
+    return ['Happy', 'So-So', 'Sad'];
+  }
+}
 function drawChart(rotateAngle) {
     var w = 400,
             h = 400,
