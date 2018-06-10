@@ -133,7 +133,7 @@ function getSpinnerColours() {
     return ["#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3"];
   }
   else {
-    return ['#2c4405', '#98df8a', "#ff7f0e", '#ff9896', "#1a1aa3"];
+    return ['#2c4405', '#98df8a', "#ff7f0e", '#5e5e6d', "#1a1aa3"];
   }
 }
 
