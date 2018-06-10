@@ -137,16 +137,29 @@ function getSpinnerColours() {
   }
 }
 
+// function getSpinnerText() {
+//   // Make text match colour
+//   if (isReallyHappy()) {
+//     return ['elated', 'elated', 'elated', 'elated', 'elated'];
+//   }
+//   else if (isReallyPissedOff()) {
+//     return ['nuclear', 'nuclear', 'nuclear', 'nuclear', 'nuclear'];
+//   }
+//   else {
+//     return ['elated', 'happy', 'so-so', 'angry', 'nuclear'];
+//   }
+// }
+
 function getSpinnerText() {
   // Make text match colour
   if (isReallyHappy()) {
-    return ['elated', 'elated', 'elated', 'elated', 'elated'];
+    return ['Elated', 'Elated', 'Elated', 'Elated', 'Elated'];
   }
   else if (isReallyPissedOff()) {
-    return ['nuclear', 'nuclear', 'nuclear', 'nuclear', 'nuclear'];
+    return ['Upset', 'Upset', 'Upset', 'Upset', 'Upset'];
   }
   else {
-    return ['elated', 'happy', 'so-so', 'angry', 'nuclear'];
+    return ['Elated', 'Happy', 'So-So', 'Sad', 'Upset'];
   }
 }
 
