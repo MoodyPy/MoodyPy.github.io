@@ -224,7 +224,6 @@ function rotateChart(angle) {
 
     d3.selectAll('text')
             .text(function(d,i) {
-              alert(text[i]);
               return text[i];
             })
             .transition()
@@ -232,4 +231,5 @@ function rotateChart(angle) {
             .attr("transform", function (d) {
                 return "translate(" + arc.centroid(d) + ")rotate(" + (-1 * angle) + ")";
             });
+    alert(text);
 }
