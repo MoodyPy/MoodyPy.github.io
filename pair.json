@@ -79,7 +79,7 @@
     },
     {
       "text": "Other Factors",
-      "type": "checkbox",
+      "type": "radio",
       "answers": [
         {
           "text": "Elevator broken (again)",
