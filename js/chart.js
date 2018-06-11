@@ -204,6 +204,7 @@ function drawChart(rotateAngle) {
 function rotateChart(angle) {
     var initialAngle = -125;
     angle = angle + initialAngle;
+    console.log(angle);
 
     var arcs = d3.select('body #charted')
             .selectAll('g.arc');
@@ -231,5 +232,4 @@ function rotateChart(angle) {
             .attr("transform", function (d) {
                 return "translate(" + arc.centroid(d) + ")rotate(" + (-1 * angle) + ")";
             });
-      console.log(text);
 }
