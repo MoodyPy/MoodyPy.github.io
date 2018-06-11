@@ -126,66 +126,30 @@ function getSpinnerColours() {
   // [ Dark Green, Light Green, Orange, Pink, Red ]
   // ['#2ca02c', '#98df8a', "#ff7f0e", '#ff9896', "#d62728"]
 
-//   if (isReallyHappy()) {
-//     return ['#2c4405','#2c4405','#2c4405','#2c4405','#2c4405'];
-//   }
-//   else if (isReallyPissedOff()) {
-//     return ["#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3", "#1a1aa3"];
-//   }
-//   else {
-//     return ['#2c4405', '#98df8a', "#ff7f0e", '#5e5e6d', "#1a1aa3"];
-//   }
-// }
-
-// function getSpinnerText() {
-//   // Make text match colour
-//   if (isReallyHappy()) {
-//     return ['elated', 'elated', 'elated', 'elated', 'elated'];
-//   }
-//   else if (isReallyPissedOff()) {
-//     return ['nuclear', 'nuclear', 'nuclear', 'nuclear', 'nuclear'];
-//   }
-//   else {
-//     return ['elated', 'happy', 'so-so', 'angry', 'nuclear'];
-//   }
-// }
-
-// function getSpinnerText() {
-//   // Make text match colour
-//   if (isReallyHappy()) {
-//     return ['Elated', 'Elated', 'Elated', 'Elated', 'Elated'];
-//   }
-//   else if (isReallyPissedOff()) {
-//     return ['Upset', 'Upset', 'Upset', 'Upset', 'Upset'];
-//   }
-//   else {
-//     return ['Elated', 'Happy', 'So-So', 'Sad', 'Upset'];
-//   }
-// }
-
   if (isReallyHappy()) {
-    return ['#2c4405','#2c4405','#2c4405'];
+    return ['#2ca02c','#2ca02c','#2ca02c','#2ca02c','#2ca02c'];
   }
   else if (isReallyPissedOff()) {
-    return ["#1a1aa3", "#1a1aa3", "#1a1aa3"];
+    return ["#d62728", "#d62728", "#d62728", "#d62728", "#d62728"];
   }
   else {
-    return ['#2c4405', "#ff7f0e", "#1a1aa3"];
+    return ['#2ca02c', '#98df8a', "#ff7f0e", '#ff9896', "#d62728"];
   }
 }
 
 function getSpinnerText() {
   // Make text match colour
   if (isReallyHappy()) {
-    return ['Happy', 'Happy', 'Happy'];
+    return ['elated', 'elated', 'elated', 'elated', 'elated'];
   }
   else if (isReallyPissedOff()) {
-    return ['Sad', 'Sad', 'Sad'];
+    return ['nuclear', 'nuclear', 'nuclear', 'nuclear', 'nuclear'];
   }
   else {
-    return ['Happy', 'So-So', 'Sad'];
+    return ['elated', 'happy', 'so-so', 'angry', 'nuclear'];
   }
 }
+
 function drawChart(rotateAngle) {
     var w = 400,
             h = 400,
