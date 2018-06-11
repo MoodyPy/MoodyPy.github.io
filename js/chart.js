@@ -118,7 +118,7 @@ function achieveEnlightenment() {
 
 function returnToNormal() {
   $('#charted').removeClass();
-  $('body').css('background-color', 'white');
+  $('body').css('background-color', 'black');
 }
 
 function getSpinnerColours() {
