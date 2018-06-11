@@ -8,6 +8,10 @@ body {
 #page {
   width: 100%;
   margin: 30px;
+  background-color: #5f65b7;
+}
+html{
+    background-color: #5f65b7;
 }
 
 #title {

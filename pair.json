@@ -7,15 +7,15 @@
       "answers": [
         {
           "text": "Freezing",
-          "value": -2
+          "value": -3
         },
         {
           "text": "Room temperature",
-          "value": 0
+          "value": 2
         },
         {
           "text": "Boiling",
-          "value": -2
+          "value": -3
         }
       ]
     },
@@ -25,19 +25,19 @@
       "answers": [
         {
           "text": "0 (grrrrrr)",
-          "value": -1
+          "value": -2
         },
         {
           "text": "1 (ah)",
-          "value": 1
-        },
-        {
-          "text": "2 (ahhhhhhhhhh!)",
           "value": 2
         },
         {
+          "text": "2 (ahhhhhhhhhh!)",
+          "value": 3
+        },
+        {
           "text": "3 or more (AHHHHHHHH!!!!!1!)",
-          "value": -2
+          "value": -3
         }
       ]
     },
@@ -47,15 +47,15 @@
       "answers": [
         {
           "text": "9am - Noon",
-          "value": -1
+          "value": -2
         },
         {
           "text": "Noon - 3pm",
-          "value": 0
+          "value": 2
         },
         {
           "text": "3pm - 6pm",
-          "value": -2
+          "value": -3
         }
       ]
     },
@@ -65,15 +65,15 @@
       "answers": [
         {
           "text": "0",
-          "value": 0
+          "value": 1
         },
         {
           "text": "1",
-          "value": 0
+          "value": 3
         },
         {
           "text": "2 or more (enough to run around engineering)",
-          "value": -3
+          "value": -2
         }
       ]
     },
@@ -83,15 +83,15 @@
       "answers": [
         {
           "text": "Elevator broken (again)",
-          "value": -1
-        },
-        {
-          "text": "Music blaring",
           "value": -2
         },
         {
+          "text": "Music blaring",
+          "value": -3
+        },
+        {
           "text": "Someone brought in doughnuts/cake",
-          "value": 3
+          "value": 4
         }
       ]
     }
