@@ -231,5 +231,5 @@ function rotateChart(angle) {
             .attr("transform", function (d) {
                 return "translate(" + arc.centroid(d) + ")rotate(" + (-1 * angle) + ")";
             });
-      alert(getSpinnerText);
+      alert(getSpinnerText());
 }
