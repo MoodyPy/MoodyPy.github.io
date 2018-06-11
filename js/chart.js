@@ -235,9 +235,33 @@ function rotateChart(angle) {
       console.log('Chill');
     }
     else if (angle == 55){
-      console.log('Sad-Chill')
+      console.log('Sad-Chill');
     }
     else if (angle == 19){
-      console.log('Sad')
+      console.log('Sad');
+    }
+    else if (angle == -17){
+      console.log('Sad - Angry');
+    }
+    else if (angle == -53){
+      console.log('Angry');
+    }
+    else if (angle == -71){
+      console.log('Hyper - Angry');
+    }
+    else if (angle == 235){
+      console.log('Hyper');
+    }
+    else if (angle == 199){
+      console.log('Happy - Hyper');
+    }
+    else if (angle == 163){
+      console.log('Happy');
+    }
+    else if (angle == 127){
+      console.log('Happy - Chill');
+    }
+    else if (angle == 91){
+      console.log('Chill');
     }
 }
