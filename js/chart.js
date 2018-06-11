@@ -133,7 +133,7 @@ function getSpinnerColours() {
     return ["#841a0b", "#841a0b", "#841a0b", "#841a0b", "#841a0b"];
   }
   else {
-    return ['#381659', '#131642', "#154c4a", '#11514c', "#841a0b"];
+    return ['#381659', '#131642', "#154c4a", '#4b4f4e', "#841a0b"];
   }
 }
 
@@ -191,6 +191,7 @@ function drawChart(rotateAngle) {
             })
             .attr("dy", ".35em")
             .attr("text-anchor", "middle")
+            .style('fill','white')
             .attr("display", function (d) {
                 return null;
             })
