@@ -127,26 +127,26 @@ function getSpinnerColours() {
   // ['#2ca02c', '#98df8a', "#ff7f0e", '#ff9896', "#d62728"]
 
   if (isReallyHappy()) {
-    return ['#2ca02c','#2ca02c','#2ca02c'];
+    return ['#2ca02c','#2ca02c','#2ca02c','#2ca02c','#2ca02c'];
   }
   else if (isReallyPissedOff()) {
-    return ["#d62728", "#d62728", "#d62728"];
+    return ["#d62728", "#d62728", "#d62728", "#d62728", "#d62728"];
   }
   else {
-    return ['#2ca02c', '#98df8a','#ff9896'];
+    return ['#2ca02c', '#98df8a', "#ff7f0e", '#ff9896', "#d62728"];
   }
 }
 
 function getSpinnerText() {
   // Make text match colour
   if (isReallyHappy()) {
-    return ['Hyper', 'Hyper', 'Hyper'];
+    return ['Hyper', 'Hyper', 'Hyper', 'Hyper', 'Hyper'];
   }
   else if (isReallyPissedOff()) {
-    return ['Angry', 'Angry', 'Angry'];
+    return ['Angry', 'Angry', 'Angry', 'Angry', 'Angry'];
   }
   else {
-    return ['Hyper', 'Happy', 'Angry'];
+    return ['Hyper', 'Happy', 'Chill', 'Sad', 'Angry'];
   }
 }
 
