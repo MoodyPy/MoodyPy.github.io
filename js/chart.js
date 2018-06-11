@@ -231,5 +231,13 @@ function rotateChart(angle) {
             .attr("transform", function (d) {
                 return "translate(" + arc.centroid(d) + ")rotate(" + (-1 * angle) + ")";
             });
-    console.log(angle);
+    if(angle == 91){
+      console.log('Chill');
+    }
+    else if (angle == 55){
+      console.log('Sad-Chill')
+    }
+    else if (angle == 19){
+      console.log('Sad')
+    }
 }
