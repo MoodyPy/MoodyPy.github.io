@@ -269,5 +269,6 @@ function rotateChart(angle) {
     }
 }
 function sayHello(){
+  alert(mood);
   console.log(mood);
 }
