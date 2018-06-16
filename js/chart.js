@@ -200,7 +200,7 @@ function drawChart(rotateAngle) {
                 return text[i];
             });
 }
-
+var mood = 'none';
 function rotateChart(angle) {
     var initialAngle = -125;
     angle = angle + initialAngle;
