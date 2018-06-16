@@ -200,7 +200,7 @@ function drawChart(rotateAngle) {
                 return text[i];
             });
 }
-
+var mood = 'none';
 function rotateChart(angle) {
     var initialAngle = -125;
     angle = angle + initialAngle;
@@ -231,11 +231,14 @@ function rotateChart(angle) {
             .attr("transform", function (d) {
                 return "translate(" + arc.centroid(d) + ")rotate(" + (-1 * angle) + ")";
             });
+    
     if(angle == 91){
-      console.log('Chill');
+      mood = 'Chill'
+      console.log(mood);
     }
     else if (angle == 55){
-      console.log('Sad-Chill');
+      mood = 'Sad-Chill'
+      console.log(mood);
     }
     else if (angle == 19){
       console.log('Sad');
@@ -264,4 +267,6 @@ function rotateChart(angle) {
     else if (angle == 91){
       console.log('Chill');
     }
+
+    document.getElementById('me').onclick=function(){alert('hi');}
 }
