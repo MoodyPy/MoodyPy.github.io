@@ -18,12 +18,11 @@
   </head>
   <body>
     <div id="page">
-      <button id="proceed-button" class="btn btn-dark" type="button">Proceed!</button>
       <div id="title">
         <h1 id="title-text"></h1>
       </div>
       <div id="question-container"></div>
-
+      <button id="proceed-button" class="btn btn-dark" type="button">Proceed!</button>
       <div id="chart-container">
         <div id="arrowed">
           <img src="images/arrow.gif"/>
@@ -39,7 +38,7 @@
 document.getElementById('proceed-button').onclick = function(){
   user_mood = userMood();
   console.log(user_mood);
-  
+
   if (user_mood == 'Happy - Hyper'){
      window.location="happy-hyper.html"
   }
