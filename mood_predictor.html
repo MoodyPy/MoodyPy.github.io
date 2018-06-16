@@ -13,7 +13,7 @@
     <script src="js/chart.js"></script>
   </head>
   <body>
-    <button id="me" type="button">Click Me!</button>
+    <button id="proceed-button" type="button">Proceed!</button>
     <div id="page">
       <div id="title">
         <h1 id="title-text"></h1>
@@ -31,10 +31,8 @@
     </div>
   </body>
 <script>
-document.getElementById('me').onclick = function(){
-sayHello();
-
-
+document.getElementById('proceed-button').onclick = function(){
+  userMood();
 }
 
 </script>

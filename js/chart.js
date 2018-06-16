@@ -268,6 +268,6 @@ function rotateChart(angle) {
       mood = 'Chill';
     }
 }
-function sayHello(){
-  console.log(mood);
+function userMood(){
+ return mood;
 }
