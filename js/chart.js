@@ -231,42 +231,19 @@ function rotateChart(angle) {
             .attr("transform", function (d) {
                 return "translate(" + arc.centroid(d) + ")rotate(" + (-1 * angle) + ")";
             });
-     console.log(angle);
     
-    if(angle == 91){
-      mood = 'Chill'
-      
+    if(angle == 235){
+      mood = 'Hyper'
     }
     else if (angle == 55){
-      mood = 'Sad-Chill'
+      mood = 'Happy'
     }
     else if (angle == 19){
       mood = 'Sad';
     }
     else if (angle == -17){
-      mood = 'Sad - Angry';
+      mood = 'Depressed';
      
-    }
-    else if (angle == -53){
-      mood = 'Angry';
-    }
-    else if (angle == -71){
-      mood = 'Hyper - Angry';
-    }
-    else if (angle == 235){
-      mood = 'Hyper';;
-    }
-    else if (angle == 199){
-      mood = 'Happy - Hyper';
-    }
-    else if (angle == 163){
-      mood = 'Happy';
-    }
-    else if (angle == 127){
-      mood = 'Happy - Chill';
-    }
-    else if (angle == 91){
-      mood = 'Chill';
     }
 }
 function userMood(){
