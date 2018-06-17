@@ -39,25 +39,25 @@ html{
 }
 
 #chart-container {
-    width: 55%;
-    float: right;
+    position:fixed;
+    left:780px;
+    top: 90px;
 }
 
 #chart-padding {
-    padding-left: 150px;
-    padding-top: 50px;
     position: absolute;
     font-size: 20px;
 }
 
 #charted {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 #arrowed {
-    padding-top: 216px;
-    position: absolute;
+    position: fixed;
+    left:580px;
+    top: 290px;
     z-index: 10;
 }
 
@@ -152,4 +152,20 @@ input {
     padding-top:35px;
     background-color:#0e1135;
     color:white;
+}
+#testResultLabel{
+    padding-left:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: grey;
+}
+#testResultProbability{
+    padding-right:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: grey;
+}
+#score-board{
+    padding-top:40px;
+    background-color:#0e1135;
 }

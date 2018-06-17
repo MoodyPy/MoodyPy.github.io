@@ -40,10 +40,19 @@
       </div>
       </div>
       </div>
-      
-      <p id="testResult" style="display:none;">Guess: <span id="testResultLabel"></span> (<span id="testResultProbability"></span>% probability)</p>
-      
+
+      <div id='score-board'>
+      <p id="testResult" style="display:none;"><span id="testResultLabel"></span><span id="testResultProbability"></span></p>
+      </div>
     
+      <div id="chart-container">
+          <!-- <div id="arrowed">
+              <img src="images/arrow.gif"/>
+            </div> -->
+          <div id="chart-padding">
+            <div id="charted"></div>
+          </div>
+        </div>
     
     
       <!-- <div id="page">
@@ -185,8 +194,8 @@ document.getElementById("testButton").addEventListener('click', function() {
     var text = document.getElementById("testBox").value;
     var result = Bayes.extractWinner(Bayes.guess(text));
     document.getElementById("testBox").value = '';
-    document.getElementById("testResultLabel").innerHTML = result.label;
-    document.getElementById("testResultProbability").innerHTML = Math.round(100*result.score);
+    document.getElementById("testResultLabel").innerHTML = 'Score: '+ result.label;
+    document.getElementById("testResultProbability").innerHTML =' (' +  Math.round(100*result.score) + ' % probability)';
     document.getElementById("testResult").style.display = 'block';
 });
 

@@ -1,21 +1,17 @@
 {
-  "title": "Music Mood Predictor",
+  "title": " ",
   "questions": [
     {
-      "text": "Range of Your Score: ",
+      "text": "Did you get a Positive or Negative Score? : ",
       "type": "radio",
       "answers": [
         {
-          "text": "-2 to 0",
-          "value": -2
+          "text": "Positive",
+          "value": 10
         },
         {
-          "text": "0",
-          "value": 0
-        },
-        {
-          "text": "0 to 2",
-          "value": 2
+          "text": "Negative",
+          "value": 10
         }
       ]
     }
