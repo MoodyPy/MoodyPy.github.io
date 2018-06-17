@@ -235,13 +235,13 @@ function rotateChart(angle) {
     if(angle == 235){
       mood = 'Hyper'
     }
-    else if (angle == 55){
+    else if (angle == 127){
       mood = 'Happy'
     }
-    else if (angle == 19){
+    else if (angle == 55){
       mood = 'Sad';
     }
-    else if (angle == -17){
+    else if (angle == -71){
       mood = 'Depressed';
      
     }
