@@ -7,11 +7,11 @@
       "answers": [
         {
           "text": "Positive",
-          "value": 10
+          "value": 20
         },
         {
           "text": "Negative",
-          "value": 10
+          "value": 20
         }
       ]
     }

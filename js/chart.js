@@ -127,10 +127,10 @@ function getSpinnerColours() {
   // ['#2ca02c', '#98df8a', "#ff7f0e", '#ff9896', "#d62728"]
 
   if (isReallyHappy()) {
-    return ['#381659','#381659','#381659','#381659','#381659'];
+    return ['#381659'];
   }
   else if (isReallyPissedOff()) {
-    return ["#841a0b", "#841a0b", "#841a0b", "#841a0b", "#841a0b"];
+    return ["#841a0b"];
   }
   else {
     return ['#381659', "#841a0b"];
@@ -140,10 +140,10 @@ function getSpinnerColours() {
 function getSpinnerText() {
   // Make text match colour
   if (isReallyHappy()) {
-    return ['Happy', 'Happy', 'Happy', 'Happy', 'Happy'];
+    return ['Happy'];
   }
   else if (isReallyPissedOff()) {
-    return ['Sad', 'Sad', 'Sad', 'Sad', 'Sad'];
+    return ['Sad'];
   }
   else {
     return ['Happy', 'Sad'];
