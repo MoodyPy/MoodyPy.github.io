@@ -15,12 +15,49 @@
     <script src="js/vendor/d3.js"></script>
     <script src="js/vendor/d3.layout.js"></script>
     <script src="js/chart.js"></script>
+    <style>
+    body, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 300px;
+    margin: 10px auto;
+    font-size: 13px;
+}
+.progress-wrapper {
+    border: 1px solid #CCC;
+    height: 15px;
+    width: 100%;
+}
+.progress {
+    background: #DDD;
+    height: 100%;
+    width: 0%;
+}
+
+textarea, button {
+    border: 1px solid #CCC;
+}
+
+textarea {
+    padding: 10px;
+    resize: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+button {
+    background: white;
+    padding: 5px;
+    cursor: pointer;
+}
+  </style>
   </head>
   <body>
-    <div id="page">
+    <!-- <div id="page">
       <div id="title">
         <h1 id="title-text"></h1>
       </div>
+      
       <div id="question-container"></div>
       <button id="proceed-button" type="button">Proceed!</button>
       <div id="chart-container">
@@ -31,18 +68,18 @@
           <div id="charted"></div>
         </div>
       </div>
-    </div>
-  </body>
+    </div> -->
+    <div id="question-container"></div>
+    <div id="chart-container">
+      <div id="arrowed">
+        <img src="images/arrow.gif"/>
+      </div>
+      <div id="chart-padding">
+        <div id="charted"></div>
+      </div>
+
+   </body>
 <script>
-
-document.getElementById('proceed-button').onclick = function(){
-  user_mood = userMood();
-  console.log(user_mood);
-
-  if (user_mood == 'Happy - Hyper'){
-     window.location="happy-hyper.html"
-  }
-}
 
 </script>
 </html>
