@@ -7,19 +7,19 @@
       "answers": [
         {
           "text": " Positive - Greater than 50%",
-          "value": 40
+          "value": 10
         },
         {
           "text": " Positive - Less than 50%",
-          "value": 20
+          "value": 5
         },
         {
           "text": " Negative - Greater than 50%",
-          "value": -40
+          "value": -5
         },
         {
           "text": " Negative - Less than 50%",
-          "value": -20
+          "value": -10
         }
       ]
     }
