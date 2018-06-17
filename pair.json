@@ -7,11 +7,11 @@
       "answers": [
         {
           "text": " Positive - Greater than 50%",
-          "value": 15
+          "value": 10
         },
         {
           "text": " Positive - Less than 50%",
-          "value": 2
+          "value": 0
         },
         {
           "text": " Negative - Greater than 50%",
@@ -19,7 +19,7 @@
         },
         {
           "text": " Negative - Less than 50%",
-          "value": -15
+          "value": -3
         }
       ]
     }
