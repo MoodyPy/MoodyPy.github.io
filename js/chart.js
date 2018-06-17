@@ -231,7 +231,7 @@ function rotateChart(angle) {
             .attr("transform", function (d) {
                 return "translate(" + arc.centroid(d) + ")rotate(" + (-1 * angle) + ")";
             });
-    
+    Console.log(angle);
     if(angle == 235){
       mood = 'Hyper'
     }
