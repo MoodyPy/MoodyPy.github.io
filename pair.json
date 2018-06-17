@@ -11,15 +11,15 @@
         },
         {
           "text": " Positive - Less than 50%",
-          "value": 5
+          "value": 2
         },
         {
           "text": " Negative - Greater than 50%",
-          "value": -5
+          "value": -10
         },
         {
           "text": " Negative - Less than 50%",
-          "value": -10
+          "value": -15
         }
       ]
     }
