@@ -21,10 +21,10 @@ html{
 }
 
 #question-container {
-    width: 40%;
     padding-right: 5%;
-    font-size: 18px;
-    float: left;
+    position: absolute;
+    left: 734px;
+    top: 501px;
 }
 
 #question-container h2 {
