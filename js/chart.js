@@ -243,7 +243,6 @@ function rotateChart(angle) {
     }
     else if (angle == -71){
       mood = 'Depressed';
-     
     }
 }
 function userMood(){
