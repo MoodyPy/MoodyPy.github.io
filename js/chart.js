@@ -133,7 +133,7 @@ function getSpinnerColours() {
     return ["#841a0b","#841a0b","#841a0b","#841a0b"];
   }
   else {
-    return ['#381659', "#841a0b"];
+    return ['#381659','#79a5f2','#d15847', "#841a0b"];
   }
 }
 
@@ -146,7 +146,7 @@ function getSpinnerText() {
     return ['Sad','Sad','Sad','Sad'];
   }
   else {
-    return ['Happy', 'Sad'];
+    return ['Hyper','Happy', 'Sad','Depressed'];
   }
 }
 
