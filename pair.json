@@ -2,15 +2,23 @@
   "title": " ",
   "questions": [
     {
-      "text": "Did you get a Positive or Negative Score? : ",
+      "text": "Score Input: ",
       "type": "radio",
       "answers": [
         {
-          "text": "Positive",
+          "text": " Positive - Greater than 50%",
+          "value": 40
+        },
+        {
+          "text": " Positive - Less than 50%",
           "value": 20
         },
         {
-          "text": "Negative",
+          "text": " Negative - Greater than 50%",
+          "value": -40
+        },
+        {
+          "text": " Negative - Less than 50%",
           "value": -20
         }
       ]
