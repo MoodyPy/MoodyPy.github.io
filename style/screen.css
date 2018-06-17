@@ -103,11 +103,12 @@ input {
     background-color:white; 
     margin-top:40px;
     margin-left:10px;
-    height: 260px;
+    height: 190px;
     width: 500px;
     border-radius: 10px;
     padding-left:7px;
     padding-top:5px;
+    padding-right:7px;
 
 }
 #button-div{
@@ -117,19 +118,38 @@ input {
 #testButton{
     margin-left:380px;
 }
-#training-progress-title{
-    background-color:#0e1135;
-    width:510px;
-    color:white;
+#bar-wrapper{
+    background-color:grey;
 }
-#training-result-title{
+#training-bar{
+    padding-top: 25px;
+    padding-left:15px;
     background-color:#0e1135;
-    width:510px;
     color:white;
-}
-#trainingProgressValue{
-    background-color:#0e1135;
 }
 .progress-wrapper{
+    width:500px;
+    
+}
+#result-bar{
+    padding-top: 25px;
+    padding-left:15px;
     background-color:#0e1135;
+    color:white;
+}
+.progress-wrapper{
+    width:500px;
+    
+}
+#trainingProgressBar{
+    background-color:#561717
+}
+#testResultsBar{
+    background-color:#561717;
+}
+#testResult{
+    padding-left:15px;
+    padding-top:35px;
+    background-color:#0e1135;
+    color:white;
 }

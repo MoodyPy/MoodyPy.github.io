@@ -26,9 +26,27 @@
       <div id='button-div'>
       <button id="testButton" class="btn btn-dark">Predict Mood!</button>
       </div>
-
+      <div id='bar-wrapper'> 
+      <div id='training-bar'>
+      <p>Training progress: <span id="trainingProgressValue">0</span>%</p>
+      <div class="progress-wrapper">
+        <div class="progress" id="trainingProgressBar"></div>
+      </div>
+      </div>
+      <div id='result-bar'>
+      <p>Test results: <span id="testResultsValue">0</span>% accuracy</p>
+      <div class="progress-wrapper">
+      <div class="progress" id="testResultsBar"></div>
+      </div>
+      </div>
+      </div>
+      
       <p id="testResult" style="display:none;">Guess: <span id="testResultLabel"></span> (<span id="testResultProbability"></span>% probability)</p>
-    <!-- <div id="page">
+      
+    
+    
+    
+      <!-- <div id="page">
       <div id="title">
         <h1 id="title-text"></h1>
       </div>
