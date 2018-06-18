@@ -93,8 +93,10 @@ input {
 .text-left{
     color:white;
     background-color: #561717;
-    font-size:4em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:3em;
+    font-family: Montserrat;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #textarea-div{
     background-color:#0e1135;
