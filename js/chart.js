@@ -143,10 +143,10 @@ function getSpinnerText() {
     return ['Hyper','Hyper','Hyper','Hyper'];
   }
   else if (isReallyPissedOff()) {
-    return ['Sad','Sad','Sad','Sad'];
+    return ['Angry','Angry','Angry','Angry','Angry'];
   }
   else {
-    return ['Hyper','Happy', 'Sad','Depressed'];
+    return ['Hyper','Happy', 'Sad','Angry'];
   }
 }
 
@@ -242,7 +242,7 @@ function rotateChart(angle) {
       mood = 'Sad';
     }
     else if (angle == -71){
-      mood = 'Depressed';
+      mood = 'Angry';
     }
 }
 function userMood(){
