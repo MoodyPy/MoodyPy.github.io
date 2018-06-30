@@ -5,35 +5,42 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Mood-Hyper</title>
+	<title>Mood-Angry</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 
 	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
 	<!-- Owl Carousel -->
-	<link type="text/css" rel="stylesheet" href="../../css/owl.carousel.css" />
-	<link type="text/css" rel="stylesheet" href="../../css/owl.theme.default.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
 	<!-- Magnific Popup -->
-	<link type="text/css" rel="stylesheet" href="../../css/magnific-popup.css" />
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
 	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="../../css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="../../css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 
 <body>
 	<!-- Header -->
 	<header id="home">
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('../../images/spongebob.jpg');">
+		<div class="bg-img" style="background-image: url('./img/angrypanda2.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
@@ -78,8 +85,8 @@
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h1 class="white-text">Hyper</h1>
-							<iframe src="https://open.spotify.com/embed/user/5hdcj7ixaiq496g3qswytp9al/playlist/4GsdituDQQH1PXC5tsrUua" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+							<h1 class="white-text">Angry</h1>
+							<iframe src="https://open.spotify.com/embed/user/5hdcj7ixaiq496g3qswytp9al/playlist/648MwvAdTUDznVWVyAowjn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -106,32 +113,32 @@
 					<div class="section-header">
 						<h2 class="title">Analytics</h2>
 					</div>
-					<p>Songs that are appropriate for a hyper mood are high in energy, danceability, and valence. Songs appropriate for a hyper mood must encourage moving one's body in an energetic manner while maintaining a positive mood. Hyper metrics closely correlate with Happy metrics, but are distinct in that Hyper songs tend to measure significantly higher energy and danceability.</p>
+					<p>Songs that are appropriate for an angry mood are high in energy but low in valence, acoustics and speechiness.  Songs appropriate for an angry mood must encourage blood flow and release of aggression whether it be through head banging or chair slamming.  Low valence correlates with negativity, similar to Sad, however with a significantly higher energy and loudness.
+                        </p>
 					<div class="feature">
 						<i class="fa fa-check"></i>
 						<p>High Energy</p>
 					</div>
 					<div class="feature">
 						<i class="fa fa-check"></i>
-						<p>High Valence</p>
+						<p>Low Valence</p>
 					</div>
 					<div class="feature">
 						<i class="fa fa-check"></i>
-						<p>High Danceability</p>
+						<p>Low Acoustics</p>
 					</div>
 					<div class="feature">
-						
-				
 					</div>
 				</div>
+				<!-- /why choose us content -->
 
 				<!-- About slider -->
 				<div class="col-md-6">
 					<div id="about-slider" class="owl-carousel owl-theme">
-						<img class="img-responsive" src="../../images/about1.jpg" alt="">
-						<img class="img-responsive" src="../../images/about2.jpg" alt="">
-						<img class="img-responsive" src="../../images/about1.jpg" alt="">
-						<img class="img-responsive" src="../../images/about2.jpg" alt="">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
 					</div>
 				</div>
 				<!-- /About slider -->
@@ -164,10 +171,10 @@
 				<!-- about -->
 				
 				<!-- /about -->
-                <p align="center"><iframe id="HyperFrame" src="hyper.htm" width="800" height="500" class="center" frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe></p>
+<p align="center"><iframe id="AngryFrame" src="angry.htm" width="800" height="500" class="center" frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe></p>
     
                 <script>
-                    var frame = document.getElementById("HyperFrame");
+                    var frame = document.getElementById("AngryFrame");
                     frame.onload = function () {
                         var body = frame.contentWindow.document.querySelector('body');
                         body.style.fontFamily = 'calibri';
@@ -176,6 +183,7 @@
                         body.style.lineHeight = '20px';
                         };
                 </script>
+
 			</div>
 			<!-- /Row -->
 
@@ -199,13 +207,13 @@
 
 					<!-- footer logo -->
 					<div class="footer-logo">
-                      <font size="100px"><a href="https://moodypy.github.io/">Moody Py</a></font>
+                      <font size="100px"><a href="https://moodypy.github.io/">MoodyPy</a></font>
 					</div>
 					<!-- /footer logo -->
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2018. All Rights Reserved.</p>
+						<p>Copyright © 2018. All Rights Reserved. </p>
 					</div>
 					<!-- /footer copyright -->
 
@@ -236,11 +244,11 @@
 	<!-- /Preloader -->
 
 	<!-- jQuery Plugins -->
-	<script type="text/javascript" src="../../js/jquery.min.js"></script>
-	<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="../../js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="../../js/jquery.magnific-popup.js"></script>
-	<script type="text/javascript" src="../../js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
