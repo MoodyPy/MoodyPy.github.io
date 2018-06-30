@@ -172,7 +172,18 @@
 				<!-- about -->
 				
 				<!-- /about -->
-<p align="center"><iframe src="happy.htm" width="800" height="500" class="center" frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe></p>
+                <p align="center"><iframe id="AngryFrame" src="angry.htm" width="800" height="500" class="center" frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe></p>
+    
+                <script>
+                    var frame = document.getElementById("AngryFrame");
+                    frame.onload = function () {
+                        var body = frame.contentWindow.document.querySelector('body');
+                        body.style.fontFamily = 'calibri';
+                        body.style.color = 'black';
+                        body.style.fontSize = '20px';
+                        body.style.lineHeight = '20px';
+                        };
+                </script>
 
 			</div>
 			<!-- /Row -->
@@ -203,7 +214,7 @@
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						<p>Copyright © 2018. All Rights Reserved</p>
 					</div>
 					<!-- /footer copyright -->
 
